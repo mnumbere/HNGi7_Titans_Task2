@@ -1,8 +1,10 @@
-function myTask() {
-  let name = "Mpakaboari Numbere";
-  let Id = "HNG-02976";
-  let email = "mnumbere@gmail.com"
-  let language = "javascript"
-  console.log ("Hello World I am" + " " + name + " " + "HNG-ID" + " "+ Id + " " + "Email" + " " + email + " " + "Language" + " " + language);
-  }
-myTask();
+var name = 'Mpakaboari Numbere';
+var id = 'HNG-02976';
+var email = 'mnumbere@gmail.com';
+var language = 'Javascript';
+
+const hngInfo=()=>{
+	return `Hello World, this is ${name} with HNGi7 ID ${id} and email ${email} using ${language} for stage 2 task`;
+}
+
+console.log(hngInfo());
